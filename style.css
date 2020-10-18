@@ -17,14 +17,14 @@
 
 .aboutContainer
 {
-    background-color: #11a011;
+    background-color: #2dcf43;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     flex: 0 0 20%;
     padding: 10px;
     text-align: center;
-    color: #ddd;
+    color: #fff;
 }
 .aboutContainer img {
     border-radius: 50%;
@@ -32,7 +32,8 @@
 
 .aboutContainer #devInfo p {
     margin-top: 8px;
-    font-size: 0.85rem;
+    font-size: 0.74rem;
+    margin-bottom: 13px;
 }
 
 .aboutContainer #devInfo p a {
@@ -58,14 +59,16 @@
 .aboutContainer #blogInfo button {
     background-color: #888;
     color: #ffe;
+    border: #888888;
     padding: 5px;
 }
 
 hr {
-    margin-top: 10px;
-    background-color: black;
+    margin-top: 13px;
+    color: black;
     width: 100%;
-    height: 1px;
+    height: 0.05rem;
+    margin-bottom: 12px;
 }
 .aboutContainer #blogInfo a {
     text-decoration: none;
@@ -89,7 +92,6 @@ hr {
 
 .mainContent {
     background-color: #FFF;
-    margin: 20px 0;
     padding: 10px;
     padding: 2% 10%;
 }
@@ -100,24 +102,88 @@ hr {
     align-self: center;
     padding: 2% 10%; 
 }
-
+.mainContent p {
+    font-size: 0.85rem;
+    color: #555;
+    padding: 7px 0 0;
+    line-height: 1.2rem;
+}
 .mainContent .content .img
 {
    margin-right: 5%;
 }
+
+.intro {
+    text-align: center;
+    padding: 6px;
+}
+.intro p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.3rem;
+    margin-bottom: 7px;
+}
+
+.intro input {
+    border-radius: 2px;
+    border: 1px solid #111;
+    padding: 5px;
+}
+.intro button {
+    background-color:#2dcf43;
+    border: 1px solid #2dcf43;
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+ul {
+    list-style: square;
+    font-size: 0.65rem;
+    padding: 5px 1px;
+    color: #888;
+}
+ li {
+    display: inline;
+    padding: 0 3px;
+    /* list-style-type: decimal; */
+
+}
+
+.text p {
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+}
+
+.text a, .text i {
+    color: #2ddf43;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.text i {
+    font-size: x-small;
+    margin-left: 1px;
+}
+
 
 
 
 
 /****** GENERAL ******/
 img {
-    width: 90px;
-    height: 90px
+    width: 80px;
+    height: 80px
 }
 
 
-/****** GENERAL ******/
+/****** ABOUT ******/
 
+.about {
+    margin: 10px 0;
+    width: 100%;
+    height: 250px;
+}
 
 
 /****** GENERAL ******/
