@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIT</title>
+    <title>High Performance Javascript</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -41,22 +41,53 @@
         <div class="mainContent">
 
             <h3>High Performance Javascript.</h3>
-            <ul><li>Published 2 month ago</li> <li>8 min read </li> <li>12 comments</li></ul>
+            <ul>
+                <li>Published 2 month ago</li>
+                <li>8 min read </li>
+                <li>12 comments</li>
+            </ul>
 
             <div>
                 <img class="about" src="img/photo-1552308995-2baac1ad5490.jpg" alt="Blog Pic">
             </div>
             <div class="text">
+                <h3>Common JavaScript performance problems#</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, iste dolore,
-                    magnam minus eos quo praesentium laborum Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Cum, iste dolore,
-                    magnam minus eos quo praesentium laborum Lorem ipsum dolor sit amet.
-                    minus eos quo praesentium laborum Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum,
-                    iste dolore,
-                    magnam minus eos quominus eos quo praesentium laborum Lorem ipsum dolor sit amet consectetur,
-                    adipisicing elit.
+                    The first step to fixing any problem is identifying the root cause. Here are a few things that can
+                    cause JavaScript performance to falter:
                 </p>
+                <p>
+                    1. <b>Too many interactions with the host#</b>
+                    Every interaction with the host object, or the user's browser, increases unpredictability and
+                    contributes to performance lag. This problem often manifests as slow rendering of DOM objects. You
+                    obviously can't avoid such interactions, but you can keep them to a minimum. Learning more about
+                    what can contribute to blocking the DOM and how to fix it.
+                     <br>
+                    2. <b>Too many dependencies#</b>
+                    If your JavaScript dependencies are plentiful and poorly managed, then your application's
+                    performance will suffer. Your users will have to wait longer for objects to render, which is
+                    especially annoying for mobile users with limited bandwidth.
+                    <br>
+                    3. <b>Poor event handling#</b>
+                    Proper use of event handlers can improve performance by reducing the depth of your call stack;
+                    however, if you don't keep track of them, they can execute repeatedly without your knowledge. Use
+                    them sparingly and wisely.
+                    <br>
+                    4. <b>Inefficient iterations#</b>
+                    Since iterations take up so much processing time, they provide a great starting point for optimizing
+                    your code. Removing unnecessary loops or calls within loops will speed up your JavaScript
+                    performance.
+                    <br>
+                    5. <b>Unorganized code#</b>
+                    JavaScript's loose nature is both an asset and a liability. You can do a lot with just a small
+                    subset of lexical constructs, but a lack of organization in your code can result in inadequate
+                    allocation of resources. Familiarizing yourself with ECMA standards can help you construct more
+                    concise JavaScript.
+                </p>
+                <p>Source: <a href= "https://www.keycdn.com/blog/javascript-performance"> 
+                    https://www.keycdn.com/blog/javascript-performance
+                </a>
+            </p>
             </div>
 
         </div>
