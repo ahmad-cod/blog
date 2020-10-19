@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MIT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
     <div class="overallContainer">
         <div class="aboutContainer">
             <div id="devInfo">
-            <h3>Ahmad's Blog</h3>
-            <img src="img/JavaScript_certificate.jpg" alt="Ahmad's pic" title="Ahmad's Pic">
-            <p>Hi, My name is Ahmad Aroyehun.<br> A Junior Frontend Developer hungry to learn more,
-                 <a href="./about.html">Find more about me</a>
-            </p>
-            <p> 
-                <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://github.com/ahmad-cod"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-stack-overflow"></i></a>
-            </p>
+                <h3>Ahmad's Blog</h3>
+                <img src="img/JavaScript_certificate.jpg" alt="Ahmad's pic" title="Ahmad's Pic">
+                <p>Hi, My name is Ahmad Aroyehun.<br> A Junior Frontend Developer hungry to learn more,
+                    <a href="./about.html">Find more about me</a>
+                </p>
+                <p>
+                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://github.com/ahmad-cod"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                </p>
+            </div>
+
+            <div id="blogInfo">
+                <hr />
+                <p><a href="index.html" class="active"><i class="fas fa-home"></i> Blog Home</a></p>
+                <p><a href="#"><i class="fas fa-blog"></i> Blog Post</a></p>
+                <p><a href="./about.html"><i class="far fa-user"></i> About Me</a></p>
+                <button>Get in Touch</button>
+            </div>
         </div>
-        
-        <div id="blogInfo">
-            <hr />
-            <p><a href="index.html" class="active"><i class="fas fa-home"></i> Blog Home</a></p>
-            <p><a href="#"><i class="fas fa-blog"></i> Blog Post</a></p>
-            <p><a href="./about.html"><i class="far fa-user"></i>  About Me</a></p>
-            <button>Get in Touch</button>
-        </div>
-        </div>
+        <h2 class="mobileheader">Ahmad's Blog</h2>
         <div class="contentContainer">
             <div class="intro">
                 <h2>DevBlog - A Blog Template Made For Developers</h2>
                 <p>Welcome to my blog. Subscribe and get my latest blog post in your inbox.</p>
-                <input type="email" placeholder="Enter Email"> 
-                <button type="submit">Subscribe</button>
+                <input type="email" class="mobile100" placeholder="Enter Email">
+                <button type="submit" class="mobile100">Subscribe</button>
             </div>
             <div class="mainContent">
                 <div class="content">
-                <div class="img">
-                    <img src="img/1700728-Linus-Torvalds-Quote-Talk-is-cheap-Show-me-the-code.jpg" alt="Blog Pic">
-                </div>
-                <div class="text">
-                    <h4>Why Every Developer Should Have A Blog.</h4>
-                    <ul><li>Published 2 days ago</li> <li>5 min read </li> <li>8 comments</li></ul>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, iste dolore, 
-                        magnam minus eos quo praesentium laborum
-                    </p>
-                    <a href="./blog1.html">Read More <i class="fas fa-arrow-right"></i></a>
-                </div>
+                    <div class="img">
+                        <img src="img/1700728-Linus-Torvalds-Quote-Talk-is-cheap-Show-me-the-code.jpg" alt="Blog Pic">
+                    </div>
+                    <div class="text">
+                        <h4>Why Every Developer Should Have A Blog.</h4>
+                        <ul>
+                            <li>Published 2 days ago</li>
+                            <li>5 min read </li>
+                            <li>8 comments</li>
+                        </ul>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, iste dolore,
+                            magnam minus eos quo praesentium laborum
+                        </p>
+                        <a href="./blog1.html">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
                 <div class="content">
                     <div class="img">
@@ -60,30 +69,39 @@
                     </div>
                     <div class="text">
                         <h4>A Guide to Becoming a Full-Stack Developer.</h4>
-                        <ul><li>Published 1 month ago</li> <li>3 min read </li> <li>26 comments</li></ul>
+                        <ul>
+                            <li>Published 1 month ago</li>
+                            <li>3 min read </li>
+                            <li>26 comments</li>
+                        </ul>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, iste dolore, 
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, iste dolore,
                             magnam minus eos quo praesentium laborum
                         </p>
                         <a href="./blog2.html">Read More <i class="fas fa-arrow-right"></i></a>
                     </div>
+                </div>
+                <div class="content">
+                    <div class="img">
+                        <img src="img/thumb@2x.jpg" alt="Blog Pic">
                     </div>
-                    <div class="content">
-                        <div class="img">
-                            <img src="img/photo-1552308995-2baac1ad5490.jpg" alt="Blog Pic">
-                        </div>
-                        <div class="text">
-                            <h4>High Performance Javascript.</h4>
-                            <ul><li>Published 2 month ago</li> <li>8 min read </li> <li>12 comments</li></ul>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, iste dolore, 
-                                magnam minus eos quo praesentium laborum
-                            </p>
-                            <a href="./blog3.html">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                        </div>
+                    <div class="text">
+                        <h4>High Performance Javascript.</h4>
+                        <ul>
+                            <li>Published 2 month ago</li>
+                            <li>8 min read </li>
+                            <li>12 comments</li>
+                        </ul>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, iste dolore,
+                            magnam minus eos quo praesentium laborum
+                        </p>
+                        <a href="./blog3.html">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
