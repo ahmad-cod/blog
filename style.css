@@ -17,7 +17,7 @@
 
 .aboutContainer
 {
-    background-color: #1ece35e8;
+    background-color: #1cb3309f;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -87,7 +87,6 @@ hr {
     align-items: center;
     background-color: #eee;
     flex: 0 0 80%;
-    
 }
 
 
@@ -129,21 +128,28 @@ hr {
 }
 
 .intro input {
-    border-radius: 2px;
-    border: 1px solid #111;
+    border-radius: 8px;
+    border: 1px solid #2a7;
     padding: 9px;
+    outline: #0a5;
+    transition: all .5s;
+}
+.intro input:focus, .intro input:hover {
+    border: none;
+    border-bottom: 2px solid teal;
 }
 .intro button {
-    background-color:#2dcf43;
-    border: 1px solid #2dcf43;
+    background-color: #1cb3309f;
+    border: 1px solid #2dcf4336;
     color: white;
     padding: 9px;
-    border-radius: 2px;
+    outline: white;
+    border-radius: 8px;
 }
 ul {
     list-style: square;
     font-size: 0.65rem;
-    padding: 5px 1px;
+    padding: 4px 1px;
     color: #888;
 }
  li {
@@ -192,7 +198,7 @@ img {
 }
 .mobileheader {
     color: white;
-    background: #2dcf43;
+    background: #1cb3309f;
     line-height: 60px;
     font-size: 30px;
     text-align: center;
@@ -201,7 +207,7 @@ img {
 
 
 b {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     color: #0a5;
 }
 
@@ -222,7 +228,8 @@ b {
     .checkbtn {
         display: block;
         margin: 10px 15px;
-        background-color: #2dcf43;
+        background-color: #1cb3309f;
+        opacity: 1;
     }
     .overallContainer {
         display: block
