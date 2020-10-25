@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /****** GENERAL ******/
 
 * 
 {
     margin: 0;
     box-sizing: border-box ;
+    font-family: 'Lato', sans-serif;
 }
 
 /****** OVERALL CONTAINER ******/
@@ -24,6 +27,7 @@
     flex: 0 0 20%;
     padding: 10px;
     text-align: center;
+    font-family: 'Lato', sans-serif;
     color: #fff;
 }
 .aboutContainer img {
@@ -105,9 +109,10 @@ hr {
     padding: 2% 10%; 
 }
 .mainContent p {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: #555;
     padding: 7px 0 0;
+    font-family: 'Lato', sans-serif;
     line-height: 1.2rem;
 }
 .mainContent .content .img
@@ -121,7 +126,8 @@ hr {
 }
 .intro p {
     font-size: 0.8rem;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
     color: #222;
     line-height: 1.3rem;
     margin-bottom: 7px;
@@ -165,7 +171,7 @@ ul {
 }
 
 .text a, .text i {
-    color: #2ddf43;
+    color: #24e63a;
     font-size: 0.7rem;
     text-decoration: none;
 }
@@ -207,8 +213,8 @@ img {
 
 
 b {
-    font-size: 1.05rem;
-    color: #0a5;
+    font-size: .95rem;
+    color: rgb(88, 224, 156);
 }
 
 
@@ -235,7 +241,7 @@ b {
         display: block
     }
     .aboutContainer, .mainContent .img{
-        display: none
+        display: none;
     }
     .mainContent {
         padding: 3% 5%;
