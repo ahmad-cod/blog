@@ -20,7 +20,7 @@
 
 .aboutContainer
 {
-    background-color: #1cb3309f;
+    background-color: #1786269f;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -145,7 +145,7 @@ hr {
     border-bottom: 2px solid teal;
 }
 .intro button {
-    background-color: #1cb3309f;
+    background-color: #1591259f;
     border: 1px solid #2dcf4336;
     color: white;
     padding: 9px;
@@ -171,7 +171,7 @@ ul {
 }
 
 .text a, .text i {
-    color: #24e63a;
+    color: #1f9c2e;
     font-size: 0.7rem;
     text-decoration: none;
 }
@@ -204,7 +204,7 @@ img {
 }
 .mobileheader {
     color: white;
-    background: #1cb3309f;
+    background: #0c811b9f;
     line-height: 60px;
     font-size: 30px;
     text-align: center;
@@ -214,7 +214,7 @@ img {
 
 b {
     font-size: .95rem;
-    color: rgb(88, 224, 156);
+    color: rgb(38, 155, 96);
 }
 
 
